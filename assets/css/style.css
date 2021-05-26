@@ -51,7 +51,7 @@ box-shadow: 0px -3px 10px #00000029;
 
 
 #hero{
-    padding-top:15rem;
+    padding-top:12rem;
     padding-bottom:6rem;
 }
 .m1{
@@ -160,10 +160,10 @@ padding-right:1rem;
 padding-top :3rem;
 padding-bottom:3rem;
 }
-/* .service-box:hover{
+.service-box:hover{
     color:#ffffff;
     background-color: #69A82C;
-} */
+}
 
 .icon{
 background: #69A82C no-repeat padding-box;
@@ -171,6 +171,11 @@ color:#ffff;
 border: 18px solid #72B74C;
 border-radius:25px;
 opacity: 1;
+}
+.service-box:hover .icon{
+    background-color:#ffffff;
+    color:#69a82c;
+    border:18px solid #ffffff;
 }
 
 .inner-head{
@@ -183,6 +188,9 @@ color: #69A82C;
 opacity: 1;
 padding-top:2rem;
 }
+.service-box:hover .inner-head{
+    color:#ffffff;
+}
 
 .inner-para{
     color: var(--unnamed-color-076847);
@@ -194,6 +202,9 @@ color: #076847;
 opacity: 1;
 padding-top:2rem;
 }
+.service-box:hover .inner-para{
+    color:#ffffff;
+}
 
 
 #about{
@@ -202,10 +213,10 @@ padding-top:2rem;
 }
 
 .image-box1{
-    padding-left:1rem;
-    padding-right:1rem;
-    padding-top:4rem;
-    padding-bottom:1rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top:6rem;
+    padding-bottom:2rem;
 }
 .aboutH{
     text-align: left;
@@ -219,7 +230,7 @@ padding-top:2rem;
     color: var(--unnamed-color-076847);
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-size:43px;
+    font-size:35px;
     letter-spacing: 0px;
     color: #076847;
     opacity: 1;
@@ -495,7 +506,7 @@ opacity: 1;
 .inner-paraa{
    max-width:500px;
    font-family: 'Poppins', sans-serif;
-font-size:13px;
+font-size:15px;
 letter-spacing: 0px;
 color: #076847;
 opacity: 1;
@@ -521,6 +532,15 @@ letter-spacing: 0px;
 color: #646363;
 opacity: 1;
 }
+.image-test{
+   width:100;
+   height:100;
+   
+    
+  
+    border-radius:50%;
+    overflow:hidden;
+}
 
 
 
@@ -530,6 +550,7 @@ opacity: 1;
 .footer-main-area {
   background: #333333;
   padding:50px 8rem;
+  display:table-cell;
 }
 
 .footer-widget {
@@ -542,10 +563,16 @@ opacity: 1;
 .footer-widget-list{
     margin-bottom:3rem;
 }
+.widget-title{
+    position:relative;
+    left:70px;
+}
 .para-footer{
     color: #FFFFFF;
     position: relative;
     line-height:2em;
+    left:70px;
+    top:13px;
     opacity: 1;
 }
 
@@ -558,10 +585,10 @@ opacity: 1;
     color: #FFFFFF;
     opacity: 1;
     padding:-8rem;
-    margin-top:2rem;
+    margin-top:3rem;
   }
 
-  .social-list li a {
+  .p-icon a {
   
     height: 42px;
     width: 42px;
@@ -576,7 +603,7 @@ opacity: 1;
     cursor: pointer;
 }
 
-.social-list li {
+.p-icon  {
     display: inline;
     float: left;
     
