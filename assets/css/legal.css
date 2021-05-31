@@ -1,0 +1,504 @@
+:root {
+
+    /* Colors: */
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-69a82c: #69A82C;
+    --unnamed-color-d6e27b: #D6E27B;
+    --unnamed-color-b7cb1c: #B7CB1C;
+    --unnamed-color-b55d2c: #B55D2C;
+    --unnamed-color-076847: #076847;
+    --unnamed-color-646363: #646363;
+    --unnamed-color-333333: #333333;
+    --unnamed-color-217409: #217409;
+    --unnamed-color-629d52: #629D52;
+    --unnamed-color-72b74c: #72B74C;
+    --unnamed-color-707070: #707070;
+    --unnamed-color-168039: #168039;
+    --unnamed-color-cc0000: #CC0000;
+    --unnamed-color-131313: #131313;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font:poppins;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    padding-top:1.2rem;
+    background: #FEFEFE 0% 0% no-repeat padding-box;
+box-shadow: 0px -3px 10px #00000029;
+/* background-color:transparent; */
+}
+.nav-link{
+    color:black;
+    font-weight:700;
+    font-size:.95rem;
+    margin-left:2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link.active{
+    color:#69a82c !important;
+}
+.nav-link:hover{
+    color:#69a82c !important;
+}
+.dropdown-menu{
+    line-height:2em;
+    color: #69A82C !important;
+}
+.dropdown-item.active{
+    color: #ffffff !important;
+    background:#69a82c;
+}
+
+
+
+
+#legal{
+    padding-top:10rem;
+    
+}
+.legal-header{
+    transform:translateY(-1.20rem);
+}
+
+
+.service{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    letter-spacing: 0px;
+    color: #69A82C;
+    opacity: 1; 
+    padding-top:6rem;
+}
+
+.service1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:32px;
+    letter-spacing: 0px;
+    color: #076847;
+    opacity: 1;
+    padding-bottom:2rem;
+}
+
+.service-para{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+margin-bottom:1rem;
+padding:1rem;
+padding-top:6rem;
+}
+
+
+#picture{
+    background: #F5FAF2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top:2rem;
+    padding-bottom:1rem;
+    margin-bottom:2rem;
+    margin-top:3rem;
+}
+.image1{
+    width: 460px;
+    height: 380px;
+}
+
+
+
+
+
+#aboutUS{
+    padding-bottom:5rem;
+    margin-top:10rem;
+}
+
+
+.aboutUS2{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+}
+
+
+
+.quote-fullwidth{
+    opacity: 1;
+    display:flex;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+/* .quote-fullwidth-avatar{
+    text-align: left;
+font: normal normal Nunito;
+font-size:3px;
+font-weight:700;
+letter-spacing: 0px;
+color: #69A82C solid;
+opacity: 0.1;
+width: 20px;
+height: 20px; */
+
+}
+
+.quote-fullwidth-avatar{
+    background: #69A82C 0% 0% no-repeat padding-box;
+border-radius: 3px;
+width: 30px;
+height: 30px;
+
+/* opacity: 0.1; */
+/* padding:0.20rem; */
+}
+.quote-fullwidth-body{
+    margin-left: 20px;
+    margin-bottom:1rem;
+    box-sizing: border-box;
+    display:block;
+    text-align:left;
+}
+
+.quote-fullwidth-header{
+    position:relative;
+
+text-align: left;
+font-family: 'Poppins', sans-serif;
+font-size:10px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+}
+
+.quote-fullwidth-text{
+    position:relative;
+
+text-align: left;
+font-family: 'Poppins', sans-serif;
+font-size:16px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+}
+
+
+#question{
+    background: #333333 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-left:8rem;
+    margin-right:10rem;
+    padding-top:4rem;
+    padding-bottom:4rem;
+    padding-left:3rem;
+    margin-top:2rem;
+    margin-bottom:7rem;
+}
+
+
+.btn-white1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+        background: #69A82C 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        border:#69A82C;
+        opacity: 1;
+      padding:.45rem 1em;
+      padding-top:.70rem;
+      padding-bottom:.70rem;
+      margin-top:2rem;
+}
+
+.btn-white1:hover{
+    background:#69A82C;
+}
+
+
+.questionh1{
+text-align: left;
+font: normal normal medium Recoleta;
+font-size:20px;
+letter-spacing: 0px;
+/* color: red !important; */
+opacity: 1;
+
+}
+
+.questionp{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+
+.footer-main-area {
+    background: #333333;
+    padding:50px 8rem;
+    display:table-cell;
+  }
+  
+  .footer-widget {
+    margin-bottom: 3px;
+    margin-top:2px;
+    display: inline-block;
+    
+    line-height:2rem;
+  }
+  .footer-widget-list{
+      margin-bottom:3rem;
+  }
+  .widget-title{
+      position:relative;
+      left:70px;
+  }
+  .para-footer{
+      color: #FFFFFF;
+      position: relative;
+      line-height:2em;
+      left:70px;
+      top:13px;
+      opacity: 1;
+  }
+  
+  .inner-footer{
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+      font-weight:300;
+      font-size:13px;
+      letter-spacing: 0.95px;
+      color: #FFFFFF;
+      opacity: 1;
+      padding:-8rem;
+      margin-top:3rem;
+    }
+  
+    .p-icon a {
+    
+      height: 42px;
+      width: 42px;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 42px;
+      font-size: 16px;
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .p-icon  {
+      display: inline;
+      float: left;
+      
+  }
+  
+
+
+
+  /* BUSINESS CONCIERGE */
+
+#all{
+    margin-bottom:7rem;
+    margin-top:7rem;
+} 
+
+
+.all-header{
+    
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    letter-spacing: 0px;
+    color: #076847;
+    opacity: 1;                                                                                           
+}
+
+.all-header1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    font-weight:500;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+margin-top:1.50rem;
+margin-bottom:1rem;
+}
+
+
+.all-top{
+    opacity: 1;
+    display:flex;
+    margin-top:1rem;
+    margin-bottom:0rem;
+}
+
+ /* .all-img{
+    text-align: left;
+font: normal normal Nunito;
+font-size:3px;
+font-weight:700;
+letter-spacing: 0px;
+color: #69A82C solid;
+opacity: 0.1;
+width: 20px;
+height: 20px;
+
+} */
+
+.image-all-2{
+    
+width: 30px;
+height: 30px;
+
+
+
+}
+.all-body{
+    margin-left: 20px;
+    margin-bottom:1rem;
+    box-sizing: border-box;
+    display:block;
+    text-align:left;
+}
+
+.all-body-header{
+    position:relative;
+
+text-align: left;
+font-family: 'Poppins', sans-serif;
+font-size:17px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+transform:translateY(.40rem);
+margin-left:1rem;
+}   
+
+
+
+
+
+
+/* INVESTMENT SUPPORT */
+
+
+
+#middle{
+    /* transform:translateY(2rem); */
+    margin-top:5rem;
+    margin-bottom:4rem;
+}
+
+
+.quote-fullwidth-p1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    letter-spacing: 0px;
+    color: #076847;
+    opacity: 1;
+    transform:translateY(.30rem);
+}
+
+.quote-fullwidth-p2{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+transform:translateY(2rem);
+}
+
+.quote-fullwidth-p3{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+transform:translateY(4rem);
+margin-left:12rem;
+}
+
+.quote-fullwidth-p4{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+transform:translateY(6rem);
+margin-bottom:5rem;
+}
+
+.quote-fullwidth-p5{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+margin-top:3rem;
+margin-bottom:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEGAL TECHNOLOGY */
+
+
+
+
+
+
+.service-para1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+letter-spacing: 0px;
+color: #076847;
+opacity: 1;
+margin-bottom:1rem;
+padding:4rem;
+padding-top:6rem;
+}
+
+
+
+
+

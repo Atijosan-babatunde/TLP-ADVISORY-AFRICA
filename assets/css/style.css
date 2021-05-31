@@ -26,6 +26,7 @@
 
 body{
     font:poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -40,6 +41,7 @@ box-shadow: 0px -3px 10px #00000029;
     font-weight:700;
     font-size:.95rem;
     margin-left:2rem;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-link.active{
     color:#69a82c !important;
@@ -47,6 +49,15 @@ box-shadow: 0px -3px 10px #00000029;
 .nav-link:hover{
     color:#69a82c !important;
 }
+.dropdown-menu{
+    line-height:2em;
+    color: #69A82C !important;
+}
+.dropdown-item.active{
+    color: #ffffff !important;
+    background:#69a82c;
+}
+
 
 
 
@@ -614,71 +625,75 @@ margin-bottom:4rem;
 }
 
 
-
-
-
-
 .footer-main-area {
-  background: #333333;
-  padding:50px 8rem;
-  display:table-cell;
-}
-
-.footer-widget {
-  margin-bottom: 3px;
-  margin-top:2px;
-  display: inline-block;
-  
-  line-height:2rem;
-}
-.footer-widget-list{
-    margin-bottom:3rem;
-}
-.widget-title{
-    position:relative;
-    left:70px;
-}
-.para-footer{
-    color: #FFFFFF;
-    position: relative;
-    line-height:2em;
-    left:70px;
-    top:13px;
-    opacity: 1;
-}
-
-.inner-footer{
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight:300;
-    font-size:13px;
-    letter-spacing: 0.95px;
-    color: #FFFFFF;
-    opacity: 1;
-    padding:-8rem;
-    margin-top:3rem;
+    background: #333333;
+    padding:50px 8rem;
+    display:table-cell;
   }
-
-  .p-icon a {
   
-    height: 42px;
-    width: 42px;
+  .footer-widget {
+    margin-bottom: 3px;
+    margin-top:2px;
     display: inline-block;
-    color: #fff;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 42px;
-    font-size: 16px;
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.p-icon  {
-    display: inline;
-    float: left;
     
-}
+    line-height:2rem;
+  }
+  .footer-widget-list{
+      margin-bottom:3rem;
+  }
+  .widget-title{
+      position:relative;
+      left:70px;
+  }
+  .para-footer{
+      color: #FFFFFF;
+      position: relative;
+      line-height:2em;
+      left:70px;
+      top:13px;
+      opacity: 1;
+  }
+  
+  .inner-footer{
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+      font-weight:300;
+      font-size:13px;
+      letter-spacing: 0.95px;
+      color: #FFFFFF;
+      opacity: 1;
+      padding:-8rem;
+      margin-top:3rem;
+    }
+  
+    .p-icon a {
+    
+      height: 42px;
+      width: 42px;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 42px;
+      font-size: 16px;
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .p-icon  {
+      display: inline;
+      float: left;
+      
+  }
+  
+
+
+
+
+
+
+
 
 
 
