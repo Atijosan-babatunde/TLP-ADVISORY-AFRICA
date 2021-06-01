@@ -53,10 +53,12 @@ box-shadow: 0px -3px 10px #00000029;
     line-height:2em;
     color: #69A82C !important;
 }
+
 .dropdown-item.active{
     color: #ffffff !important;
     background:#69a82c;
 }
+
 
 
 
@@ -198,7 +200,21 @@ form.example1 input[type=text]{
     margin-top:2rem;
 }
 
+.btn {
+    padding:10px;
+    font-size: 17px;
+    border: 1px solid#69A82C;
+    float:left;
+    width:100%;
+    background: #ffffff;
+    margin-top:2rem;
+    color:rgb(112, 112, 112);
+    text-align:left;
+}
 
+.dropdown-menu{
+    margin-right:2rem;
+}
 
 
 
@@ -265,6 +281,11 @@ form.example1 input[type=text]{
       
   }
   
-
+  @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
 
 
